@@ -19,10 +19,11 @@ Uses Hibernate and H2 in-memory database:
  * [Employee](src/main/java/demo/model/Employee.java) - extends **Person** class
  
 ## Demo
-Persists 3 employees and executes (expected result is 3): 
+ * [Main](src/main/java/demo/Main.java) - persists 3 employees and executes the following query: 
 ```hql 
 SELECT COUNT(e) FROM Employee e
 ```
+
 ### Sample Output:
 ```log
 Oct 22, 2019 5:48:23 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
