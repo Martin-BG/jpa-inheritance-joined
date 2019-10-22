@@ -1,4 +1,4 @@
-#JPA InheritanceType.JOINED Demo
+# JPA InheritanceType.JOINED Demo
 
 Simple project demonstrating the use of **JPA**'s ```@Inheritance(strategy = InheritanceType.JOINED)``` for subclassing.
 
